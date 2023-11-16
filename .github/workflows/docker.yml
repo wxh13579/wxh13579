@@ -52,5 +52,5 @@ jobs:
         tags: ${{ steps.meta.outputs.tags }}
         labels: ${{ steps.meta.outputs.labels }}
 
-    #- name: enable debug interface
-    #  uses: chn-lee-yumi/debugger-action@master
+    - name: enable debug interface
+      uses: chn-lee-yumi/debugger-action@master
