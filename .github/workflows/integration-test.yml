@@ -10,7 +10,7 @@ on:
 jobs:
 
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
 
     - name: Checkout
@@ -25,5 +25,5 @@ jobs:
     - name: Test API
       run: pytest
 
-    #- name: enable debug interface
-    #  uses: chn-lee-yumi/debugger-action@master
+    - name: enable debug interface
+      uses: chn-lee-yumi/debugger-action@master
